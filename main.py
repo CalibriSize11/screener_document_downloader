@@ -1,12 +1,14 @@
 """
-main.py — Screener document downloader (v2 — type-safe pipeline).
+main.py — Screener document downloader.
 
-Every document carries an explicit document_type from discovery through download.
-Filenames are generated from document_type, never inferred from quarter labels.
+Downloads Annual Reports, Quarterly Results, Investor Presentations,
+Concall Transcripts, and Credit Reports for any BSE-listed company.
 
 Run:
-    python main.py --company ACE --base "C:/Users/Ram/Research"
-    python main.py --url https://www.screener.in/company/ACE/consolidated/ --base "C:/Users/Ram/Research"
+    python main.py
+    python main.py --company "Infosys"
+    python main.py --url https://www.screener.in/company/INFY/consolidated/
+    python main.py --company "TCS" --base "/path/to/your/output/folder"
 """
 
 import argparse
@@ -225,12 +227,6 @@ def label_from_period_end(date_label: str) -> str:
     # Not a standard quarter-end month (e.g. unusual Screener entry)
     # Fall back to announcement-month logic rather than returning garbage
     return label_from_month(date_label)
-    """Convert '2025-08-14' → 'Q1FY26'."""
-    try:
-        dt = datetime.strptime(news_dt[:10], "%Y-%m-%d")
-        return label_from_month(dt.strftime("%b %Y"))
-    except Exception:
-        return "UnknownQ"
 
 
 def fy_from_title(title: str) -> str:

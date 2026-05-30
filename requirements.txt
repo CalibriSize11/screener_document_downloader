@@ -1,9 +1,13 @@
+# Core HTTP and HTML parsing
 requests>=2.31.0
 beautifulsoup4>=4.12.0
 lxml>=4.9.0
-pdfplumber>=0.10.0
-PyMuPDF>=1.23.0
+
+# Browser automation (for Screener concalls section — JS-rendered)
 playwright>=1.40.0
-rich>=13.0.0
-bse>=2.0.0
+
+# BSE India API
+bse>=3.3.0
+
+# PDF validation
 pypdf>=4.0.0
