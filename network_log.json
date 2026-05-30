@@ -1,0 +1,184 @@
+{
+  "all_requests": [
+    {
+      "type": "document",
+      "url": "https://www.screener.in/company/ACE/consolidated/"
+    },
+    {
+      "type": "script",
+      "url": "https://plausible.screener.in/js/script.pageview-props.tagged-events.js"
+    },
+    {
+      "type": "script",
+      "url": "https://rybbit.screener.in/api/script.js"
+    },
+    {
+      "type": "stylesheet",
+      "url": "https://cdn-static.screener.in/inter/inter.bccd7465af74.css?v=2"
+    },
+    {
+      "type": "stylesheet",
+      "url": "https://cdn-static.screener.in/fontello/css/fontello.835ae8880a8b.css?v=2"
+    },
+    {
+      "type": "stylesheet",
+      "url": "https://cdn-static.screener.in/css/normalize.a2444750a947.css"
+    },
+    {
+      "type": "stylesheet",
+      "url": "https://cdn-static.screener.in/css/skeleton.e1c50fcb2cfe.css"
+    },
+    {
+      "type": "stylesheet",
+      "url": "https://cdn-static.screener.in/css/custom.face9eb25802.css"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn-static.screener.in/img/logo-black.f44abb4998d1.svg"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn-static.screener.in/icons/screens.e960a5daedf9.svg"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn-static.screener.in/icons/crown.fb0d2413ee43.svg"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn-static.screener.in/icons/ai.970ef1d1cabb.svg"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn-static.screener.in/icons/export.d623f0029933.svg"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn-static.screener.in/icons/shares.10acc20cb936.svg"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn-static.screener.in/icons/loudspeaker.88769927f6eb.svg"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/dialog-polyfill.min.2b5bf9a032d2.js"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/utils.5fa58987fd69.js"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/modal.33ac63eb7887.js"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/typeahead.8dcc9ac93685.js"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/filter.component.888b0801c31d.js"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/navbar.3fe7f0f4a630.js"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/company.search.e48f94642999.js"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/scroll-aid.241d18f7d05c.js"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/company.customisation.9c3fa0c653e0.js"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/chart.min.10a29a29621c.js"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/chartjs-adapter-date-fns.bundle.min.ebae23730a6e.js"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/chart.2a4531d22d97.js"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/segment-result.b6af4191fd6f.js"
+    },
+    {
+      "type": "script",
+      "url": "https://cdn-static.screener.in/js/pwa.6ade38a669c4.js"
+    },
+    {
+      "type": "font",
+      "url": "https://cdn-static.screener.in/inter/Inter-roman.var.66c6e4088364.woff2?v=3.19&cf"
+    },
+    {
+      "type": "font",
+      "url": "https://cdn-static.screener.in/fontello/font/fontello.5b04d8976c8b.woff2?66895980"
+    },
+    {
+      "type": "xhr",
+      "url": "https://www.screener.in/api/company/6594423/peers/"
+    },
+    {
+      "type": "xhr",
+      "url": "https://www.screener.in/api/company/53/chart/?q=Price-DMA50-DMA200-Volume&days=365&consolidated=true"
+    },
+    {
+      "type": "fetch",
+      "url": "https://rybbit.screener.in/api/site/tracking-config/5494427e1dc0"
+    },
+    {
+      "type": "font",
+      "url": "https://cdn-static.screener.in/inter/Inter-Medium.75db5319e7e8.woff2?v=3.19&cf"
+    },
+    {
+      "type": "other",
+      "url": "https://cdn-static.screener.in/favicon/favicon-32x32.00205914303a.png"
+    },
+    {
+      "type": "fetch",
+      "url": "https://rybbit.screener.in/api/track"
+    }
+  ],
+  "xhr_fetch": [
+    {
+      "type": "xhr",
+      "method": "GET",
+      "url": "https://www.screener.in/api/company/6594423/peers/"
+    },
+    {
+      "type": "xhr",
+      "method": "GET",
+      "url": "https://www.screener.in/api/company/53/chart/?q=Price-DMA50-DMA200-Volume&days=365&consolidated=true"
+    },
+    {
+      "type": "fetch",
+      "method": "GET",
+      "url": "https://rybbit.screener.in/api/site/tracking-config/5494427e1dc0"
+    },
+    {
+      "type": "fetch",
+      "method": "POST",
+      "url": "https://rybbit.screener.in/api/track"
+    }
+  ],
+  "json_responses": [
+    {
+      "url": "https://www.screener.in/api/company/53/chart/?q=Price-DMA50-DMA200-Volume&days=365&consolidated=true",
+      "data_preview": "{'datasets': [{'metric': 'Price', 'label': 'Price on NSE', 'values': [['2025-05-29', '1247.00'], ['2025-05-30', '1248.70'], ['2025-06-02', '1262.20'], ['2025-06-03', '1253.50'], ['2025-06-04', '1266.20'], ['2025-06-05', '1251.90'], ['2025-06-06', '1242.40'], ['2025-06-09', '1263.30'], ['2025-06-10', '1252.00'], ['2025-06-11', '1257.00'], ['2025-06-12', '1228.90'], ['2025-06-13', '1199.60'], ['2025-06-16', '1187.70'], ['2025-06-17', '1188.30'], ['2025-06-18', '1198.60'], ['2025-06-19', '1171.10']"
+    },
+    {
+      "url": "https://rybbit.screener.in/api/site/tracking-config/5494427e1dc0",
+      "data_preview": "{'sessionReplay': False, 'webVitals': False, 'trackErrors': True, 'trackOutbound': True, 'trackUrlParams': True, 'trackInitialPageView': True, 'trackSpaNavigation': True, 'trackButtonClicks': False, 'trackCopy': False, 'trackFormInteractions': True}"
+    }
+  ]
+}
